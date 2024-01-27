@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+/* * start header */ 
+header{
+    position: relative;
+    height: 100vh;
+background-image: url("../imgs/bg.jpg");
+background-size: 100% 100%;
+}
+header::before{
+    content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.691);
+}
+header .icon_ablacation{
+padding: 10px;
+height: 40px;
+width: 40px;
+background-color: black;
+border-radius: 50%;
+
+}
+header span::after{ 
+    content: "|";
+    animation: gehad 13s alternate infinite;
+    position: absolute;
+    bottom: -30px;
+    width: 300px;
+    height: 50px;
+    left: 50%;
+    font-weight: 300;
+    color: white;
+    font-size: 40px;
+}
+@keyframes gehad {
+    1% {
+      content: "|";
+    }
+    2% {
+      content: "G |";
+    }
+    4% {
+      content: "Ge |";
+    }
+    6% {
+      content: "Geh |";
+    }
+    8% {
+      content: "Geha |";
+    }
+    8% {
+      content: "Gehad |";
+    }
+    7% {
+      content: "Gehad S |";
+    }
+    8% {
+      content: " Gehad Sa|";
+    }
+    9% {
+      content: "Gehad Say|";
+    }
+    10% {
+      content: "Gehad Saye |";
+    }
+    11% {
+      content: "Gehad Sayed |";
+    }
+    12% {
+      content: "Gehad Sayed |";
+    }
+    13% {
+      content: "Geh Free |";
+    }
+    14% {
+      content: "CEO DEVFOL |";
+    }
+    15% {
+      content: "CEO DEVFO |";
+    }
+    16% {
+      content: "CEO DEVF |";
+    }
+    17% {
+      content: "CEO DEV |";
+    }
+    18% {
+      content: "CEO DE |";
+    }
+    19% {
+      content: "CEO D |";
+    }
+    20% {
+      content: "CEO |";
+    }
+    21% {
+      content: "CE |";
+    }
+    22% {
+      content: "C |";
+    }
+    23% {
+      content: " |";
+    }
+    24% {
+      content: "W |";
+    }
+    25% {
+      content: "WE |";
+    }
+    26% {
+      content: "WEB |";
+    }
+    27% {
+      content: "WEB D |";
+    }
+    28% {
+      content: "WEB DE |";
+    }
+    29% {
+      content: "WEB DEV |";
+    }
+    30% {
+      content: "WEB DEVE |";
+    }
+    31% {
+      content: "WEB DEVEL |";
+    }
+    32% {
+      content: "WEB DEVELO |";
+    }
+    33% {
+      content: "WEB DEVELOP |";
+    }
+    34% {
+      content: "WEB DEVELOPE |";
+    }
+    35% {
+      content: "WEB DEVE |";
+    }
+    36% {
+      content: "WEB LOPER |";
+    }
+    37% {
+      content: "WEB DEVELOP |";
+    }
+    38% {
+      content: "WEB DEVELO |";
+    }
+    39% {
+      content: "WEB DEVEL |";
+    }
+    40% {
+      content: "WEB DEVE |";
+    }
+    41% {
+      content: "WEB DEV |";
+    }
+    42% {
+      content: "WEB DE |";
+    }
+    43% {
+      content: "WEB DES |";
+    }
+    44% {
+      content: "WEB DESI |";
+    }
+    45% {
+      content: "WEB DESIG |";
+    }
+    46% {
+      content: "WEB DE |";
+    }
+    47% {
+      content: "WEB DE|";
+    }
+    48% {
+      content: "WEB DESI|";
+    }
+    49% {
+      content: "WEB DESIGNE |";
+    }
+    50% {
+      content: "WEB DE |";
+    }
+    51% {
+      content: "WEB DE |";
+    }
+    52% {
+      content: "WEB DESI |";
+    }
+    53% {
+      content: "WEB DES |";
+    }
+    54% {
+      content: "WEB DE |";
+    }
+    55% {
+      content: "WEB  |";
+    }
+    56% {
+      content: "WE |";
+    }
+    57% {
+      content: "W |";
+    }
+    58% {
+      content: " |";
+    }
+    59% {
+      content: "F |";
+    }
+    60% {
+      content: "FRO |";
+    }
+    61% {
+      content: "FRONT |";
+    }
+    62% {
+      content: "FRONT E |";
+    }
+    63% {
+      content: "FRONT END |";
+    }
+    64% {
+      content: "FRONT END D |";
+    }
+    65% {
+      content: "FRONT END  |";
+    }
+    66% {
+      content: "FRONT END DE |";
+    }
+    67% {
+      content: "FRONT END v |";
+    }
+    68% {
+      content: "FRONT END E |";
+    }
+    69% {
+      content: "FRONT END DEV |";
+    }
+    70% {
+      content: "FRONT END VE |";
+    }
+    70% {
+      content: "FRONT END DEV |";
+    }
+    72% {
+      content: "FRONT END D |";
+    }
+    73% {
+      content: "FRONT END |";
+    }
+    74% {
+      content: "FRONT  |";
+    }
+    75% {
+      content: "FRON |";
+    }
+    76% {
+      content: "FR |";
+    }
+    77% {
+      content: "F |";
+    }
+    78% {
+      content: " |";
+    }
+    79% {
+      content: "G |";
+    }
+    80% {
+      content: "GRA |";
+    }
+    81% {
+      content: "GRAPH |";
+    }
+    82% {
+      content: "GRAPHIC |";
+    }
+    83% {
+      content: "GRAPHIC D |";
+    }
+    84% {
+      content: "GRAPHIC DES |";
+    }
+    85% {
+      content: "GRAPHIC DESIG |";
+    }
+    86% {
+      content: "GRAPHIC DESI |";
+    }
+    87% {
+      content: "GRAPHIC DESIG |";
+    }
+    88% {
+      content: "GRAPHIC DESR |";
+    }
+    89% {
+      content: "GRAPHIC DESIGN |";
+    }
+    91% {
+      content: "GRAPHIC DESI |";
+    }
+    93% {
+      content: "GRAPHIC DE |";
+    }
+    95% {
+      content: "GRAPHIC  |";
+    }
+    97% {
+      content: "GRAPHI |";
+    }
+    98% {
+      content: "GRAP |";
+    }
+    99% {
+      content: "GR |";
+    }
+    100% {
+      content: " |";
+    }
+  }
+/* end header */
+/* start about */
+section .btn:hover{
+    background-color: white;
+    color: black;
+}
+section .btn:hover:not(:first-child){
+    background-color: black;
+    color: white;
+}
+/* end about */
+/* start about */
+.parent_selvices{
+    background-color: #eee;
+}
+.services_h2{
+    font-size: 50px;
+    font-weight: 900;
+}
+ .OLL_OLL{
+    border-radius: 10px;
+}
+.OLL_OLL .parent_iconss{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #eee;
+    padding: 10px;
+    transition: 0.7s;
+}
+.OLL_OLL:hover  .parent_iconss{
+    background-color: black;
+    color: white;
+}
+/* end about */
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: white;
+    border-bottom: black 2px solid;
+    color: black;
+}
+.nav-pills .nav-link{
+    color: black;
+}
+.parent_smoll_iconss {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid black;
+    transition: 0.5s;
+    -webkit-border-radius: 50p;
+}
+.portifiolo h2{
+    font-weight: 900;
+    font-size: 50px;
+}
+.parent_smoll_iconss:hover {
+    background-color:white;
+    color: black;
+}
+.parent_smoll_iconss{
+    color: white;
+}
+.layer_image{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+opacity: 0;
+background-color: white;
+transition: 1s all;
+-webkit-transition: 1s all;
+-moz-transition: 1s 
+}
+.smoll_parent_image:hover .layer_image {
+    opacity: 1;
+    border: 6px solid #d7d5d6;
+}
+/* start testimonial */
+.testimonial{
+    background-color: #eee;
+}
+.testimonial button{
+    background-color: red;
+}
+
+
+.testeemonial [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border: unset;
+    background-color: unset;
+    background-color: #869791;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+.testeemonial .services_h2{
+    font-weight: 900;
+    font-size: 50px;
+}
+/* end testimonial */
+.know i{
+font-size: 25px;
+}
+.know h2{
+    font-weight: 900;
+}
+.know p{
+    color: #748182;
+    font-weight: 500;
+}
+/*  end*/
+/* srart blog */
+.blog{
+    background-color: #eee;
+}
+.blog h2{
+    font-weight: 900;
+    font-size: 50px;
+}
+.testeemonial {
+    position: unset;
+}
+.blog h5 a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.blog a{
+    color: black;
+}
+/* end blog */
+/*start contact */
+.contact h2{
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+
+.child_icon_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    transition: 0.5s;
+}
+.contact i{
+    font-size: 20px;
+}
+.child_icon_3:hover{
+    background-color: black;
+    color: white;
+}
+.contact p{
+    color: #748182;
+}
+.lapel_input_text input{
+    background-color:#f4f4f4 ;
+    border: none;
+    border-radius: 6px;
+}
+.lapel_input_text textarea {
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.contact button {
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    padding: 8px 40px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    transition: 0.3s;
+}
+.contact button:hover{
+    background-color: white;
+    color: black;
+}
+/*end contact */
+/* footer */
+footer p{
+    color:#aaa;
+}
+/* footer */
